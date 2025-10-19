@@ -22,6 +22,7 @@ LazyVim is a Neovim distribution that transforms Neovim into a powerful, modern 
 ## 🎨 Custom Features
 
 ### Theme Customization
+
 - **Color Scheme**: [Gruvbox Material](https://github.com/sainnhe/gruvbox-material)
   - Variant: `hard` background
   - Transparent background enabled for terminal integration
@@ -30,9 +31,11 @@ LazyVim is a Neovim distribution that transforms Neovim into a powerful, modern 
 ### Additional Plugins
 
 #### LazyGit Integration
+
 Integrated [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) for a seamless Git workflow directly within Neovim.
 
 **Available Commands**:
+
 - `LazyGit` - Open LazyGit in a floating window
 - `LazyGitConfig` - Open LazyGit configuration
 - `LazyGitCurrentFile` - Open LazyGit for the current file
@@ -55,17 +58,20 @@ Integrated [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) for a seamle
 ### Installation
 
 1. **Backup your current Neovim configuration** (if you have one):
+
    ```bash
    mv ~/.config/nvim ~/.config/nvim.backup
    mv ~/.local/share/nvim ~/.local/share/nvim.backup
    ```
 
 2. **Clone this repository**:
+
    ```bash
    git clone https://github.com/codila125/neovim-config.git ~/.config/nvim
    ```
 
 3. **Install lazygit** (if not already installed):
+
    ```bash
    # macOS
    brew install lazygit
@@ -81,10 +87,11 @@ Integrated [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) for a seamle
    ```
 
 4. **Start Neovim**:
+
    ```bash
    nvim
    ```
-   
+
    LazyVim will automatically install all plugins on first launch.
 
 ## 🔧 Customizations
@@ -92,6 +99,7 @@ Integrated [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) for a seamle
 This configuration extends the LazyVim starter template with the following modifications:
 
 ### 1. Theme Configuration
+
 - **Plugin**: `sainnhe/gruvbox-material`
 - **Settings**:
   - Hard contrast background for better readability
@@ -99,6 +107,7 @@ This configuration extends the LazyVim starter template with the following modif
   - Set as default colorscheme
 
 ### 2. Git Integration
+
 - **Plugin**: `kdheepak/lazygit.nvim`
 - **Features**:
   - Floating window interface
@@ -130,27 +139,31 @@ This configuration extends the LazyVim starter template with the following modif
 ## ⌨️ Key Bindings
 
 ### Default LazyVim Bindings
+
 - **Leader Key**: `<Space>`
 - **File Explorer**: `<leader>e` - Toggle file explorer
 - **Find Files**: `<leader>ff` - Fuzzy find files
 - **Grep Search**: `<leader>fg` - Search text across files
-- **LSP Features**: 
+- **LSP Features**:
   - `gd` - Go to definition
   - `K` - Hover documentation
   - `<leader>ca` - Code actions
 
 ### Custom Bindings
+
 - **LazyGit**: `<leader>lg` - Open LazyGit interface
 
 ## 🎯 Why These Changes?
 
 ### Gruvbox Material Theme
+
 - Provides excellent contrast without eye strain
 - Hard variant offers sharper distinction between UI elements
 - Transparent background integrates beautifully with modern terminals
 - Warm, earthy color palette reduces fatigue during long coding sessions
 
 ### LazyGit Integration
+
 - Eliminates context switching between terminal and editor
 - Visual Git interface is more intuitive than CLI commands
 - Lazy-loaded to maintain fast startup times
@@ -159,12 +172,6 @@ This configuration extends the LazyVim starter template with the following modif
 ## 🤝 Contributing
 
 Feel free to fork this repository and adapt it to your needs! If you have suggestions or improvements, open an issue or pull request.
-
-## 📝 License
-
-This configuration is open source and available under the MIT License.
-
----
 
 **Maintained by**: [@codila125](https://github.com/codila125)
 
