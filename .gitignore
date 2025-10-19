@@ -1,8 +1,19 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
-*.log
-data
+# Ignore folder where lazy.nvim clones plugins
+/lazy/
+
+# Neovim specific
+*.swp
+*.swo
+*.swn
+*.lo
+*.o
+
+# Cache, session, and backup files
+.cache/
+sessions/
+undodir/
+backupdir/
+
+# Mason stuff
+/mason/
+/data/
